@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my second task</title>
+    <script src="task2.js"></script>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body onload="dateOnTop()">
+    <div class="time">
+        <span id="exactDate" class="DateAndTime">Your exact time is going to be shown here</span>
+        <br><br> 
+        <button onclick="dateOnTop()">Get exact time</time></button>
+    </div>
+    <div class="password">
+        <fieldset style="width: 450px   ;">
+            <legend>sign in</legend>
+            <label>Email</label>
+            <input type="text">
+            <br><br>
+            <label>Password</label>
+            <input type="text" id="Pass">
+            <button onclick="safePassword()">check</button>
+        </fieldset>
+    </div>
+
+    <div class="shoes">
+        <label id="EuropeanShoeSizeLBL1">shoe size will apear here(obj)</label>
+        <label id="EuropeanShoeSizeLBL2"></label>
+        <label id="EuropeanShoeSizeLBL3"></label>
+        <br><br>
+        <label id="EuropeanShoeSizeLBL4">shoe size will apear here(arr)</label>
+        <br><br>
+        <button onclick="ShoeSizeO()">SHOE SIZES with Object</button>
+        <br>
+        <button onclick="ShoeSizeA()">SHOE SIZES with Array</button>
+    </div>
+    <div class="lastParts">
+        <button onclick="repetitive()">special Array(open console)</button>
+        <br><br>
+        <fieldset onchange="alertChange()">
+        <input type="text" id="onChange">
+        </fieldset>
+        <p onmouseout="offText()" onmouseover="onText()" id="paragraph">Hello! this is my second project</p>
+        <button onkeydown="siteEntryAlert(event)">site entry(press enter)</button>
+    </div>
+</body>
+</html> 

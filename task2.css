@@ -1,0 +1,48 @@
+body{
+    place-items: center;
+    background-color: beige;
+}
+.time{
+    width: 350px;
+    background-color: rgb(124, 153, 143);
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgb(0,0,0,0.2);
+    text-align: center;
+    font-size: smaller;
+    padding: 15px;
+}
+.DateAndTime{
+    background-color: rgb(241, 212, 175);
+    border-radius:2px;
+}
+.password{
+    margin-top: 15px;
+    width: 500px;
+    height: 105px;;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgb(0,0,0,0.2);
+}
+.shoes{
+    margin-top: 20px;
+    background-color:aliceblue;
+    width:400px;
+    height: 130px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgb(0,0,0,0.2);
+}
+.lastParts{
+    margin-top:15px;
+    background-color: aliceblue;
+    box-shadow: 0 10px 25px rgb(0,0,0,0.2);
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+button{
+    background-color: rgb(188, 221, 235);
+    border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
